@@ -1,9 +1,18 @@
 ## Welcome to BitFrost 👋
 ![banner](./images/bitfrost.svg)
-[BitFrost](https://bitfrost.ai/) is a high-performance Layer-1 blockchain implementing advanced cryptography to enable increased security and efficiency for Multi-Party Computation (MPC). 
-It establishes trust-minimized asset transfer between heterogeneous blockchain architectures, particularly focusing on unlocking UTXO-based assets for broader ecosystem utility. 
-Our integration with [Wormhole NTT](https://wormhole.com/products/native-token-transfers) has now enabled a unified liquidity layer where UTXO assets plus siloed assets like [TRX](https://tron.network/), [Cardano](https://cardano.org/), [Ripple](https://ripple.com) can participate in DeFi on any chain. 
-Our goal is to create UTXO and siloed liquidity on all blockchains, rewarding LPs with native yield on their currently idle assets.
+Early multichain growth created real diversity, and a serious mobility problem for capital. Stranded across L1s and L2s, rebalancing takes hours, fees are volatile, and the UX breaks down after a few steps. Moving between Ethereum, Solana, and Bitcoin still
+means stitching together multiple custodians, interfaces, and fee layers costing both yield and time. Until liquidity fragmentation is addressed at the primitive layer, DeFi cannot scale to mainstream adoption. Bitfrost is a unified liquidity layer to solve
+this problem in a multichain world. 
+
+The solution:
+One pool, one risk surface. BitFrost’s unified liquidity layer, built on Threshold Signature Schemes (TSS) and [Wormhole’s Native Token Transfers](https://wormhole.com/products/native-token-transfers) standardizes the path assets take
+across both account and non-account based chains:
+1. Unified deposits. Any connected chain → TSS vault → fungible receipt token.
+2. Atomic transfers. Burn receipt → Wormhole message → release native asset on destination.
+3. Automatic rebalancing. Contracts maintain vault ratios and move inventory where demand appears.
+4. On‑chain governance. DAOs encode limits, pause conditions, and slashing rules at the protocol layer.
+The result is one pool of liquidity spanning all connected chains, one set of controls, and one operational surface – all without the overhead of multiple one‑off integrations.
+
 
 ### Run a Node or a Validator
 Please contact us in any way possible to include you in the network.
