@@ -1,6 +1,6 @@
 ## Welcome to BitFrost 👋
 ![banner](./images/bitfrost.svg)
-[BitFrost](https://int3face.zone/) is a high-performance Layer-1 blockchain implementing advanced cryptography to enable increased security and efficiency for Multi-Party Computation (MPC). 
+[BitFrost](https://bitfrost.ai/) is a high-performance Layer-1 blockchain implementing advanced cryptography to enable increased security and efficiency for Multi-Party Computation (MPC). 
 It establishes trust-minimized asset transfer between heterogeneous blockchain architectures, particularly focusing on unlocking UTXO-based assets for broader ecosystem utility. 
 Our integration with [Wormhole NTT](https://wormhole.com/products/native-token-transfers) has now enabled a unified liquidity layer where UTXO assets plus siloed assets like [TRX](https://tron.network/), [Cardano](https://cardano.org/), [Ripple](https://ripple.com) can participate in DeFi on any chain. 
 Our goal is to create UTXO and siloed liquidity on all blockchains, rewarding LPs with native yield on their currently idle assets.
