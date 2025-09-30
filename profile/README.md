@@ -1,9 +1,9 @@
 ## Welcome to BitFrost ☃️
 ![banner](./images/bitfrost.svg)
-Product:
+### Product
 Bitfrost is a permissionless market creation platform for venues like Hyperliquid.  Users deposit assets from any blockchain to launch new markets and earn revenue as collective owners.
 
-The infrastructure:
+### The infrastructure
 Bitfrost is a synthetic asset issuance platform built on a cross-chain state machine that enables native assets, real-world assets (RWAs), LSTs and LRTs to flow securely and efficiently into active DeFi venues on any chain.
 Bitfrost introduces several key innovations in interoperability to ensure secure, capital-efficient synthetic issuance across chains:
 
