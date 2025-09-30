@@ -1,18 +1,23 @@
-## Welcome to BitFrost 👋
-![banner](./images/bitfrost.svg)
-Early multichain growth created real diversity, and a serious mobility problem for capital. Stranded across L1s and L2s, rebalancing takes hours, fees are volatile, and the UX breaks down after a few steps. Moving between Ethereum, Solana, and Bitcoin still
-means stitching together multiple custodians, interfaces, and fee layers costing both yield and time. Until liquidity fragmentation is addressed at the primitive layer, DeFi cannot scale to mainstream adoption. Bitfrost is a unified liquidity layer to solve
-this problem in a multichain world. 
+## Welcome to BitFrost ☃️
+![banner](./images/bitfrost.png)
+Product:
+Bitfrost is a permissionless market creation platform for venues like Hyperliquid.  Users deposit assets from any blockchain to launch new markets and earn revenue as collective owners.
 
-The solution:
-One pool, one risk surface. BitFrost’s unified liquidity layer, built on Threshold Signature Schemes (TSS) and [Wormhole’s Native Token Transfers](https://wormhole.com/products/native-token-transfers) standardizes the path assets take
-across both account and non-account based chains:
-1. Unified deposits. Any connected chain → TSS vault → fungible receipt token.
-2. Atomic transfers. Burn receipt → Wormhole message → release native asset on destination.
-3. Automatic rebalancing. Contracts maintain vault ratios and move inventory where demand appears.
-4. On‑chain governance. DAOs encode limits, pause conditions, and slashing rules at the protocol layer.
-The result is one pool of liquidity spanning all connected chains, one set of controls, and one operational surface – all without the overhead of multiple one‑off integrations.
+The infrastructure:
+Bitfrost is a synthetic asset issuance platform built on a cross-chain state machine that enables native assets, real-world assets (RWAs), LSTs and LRTs to flow securely and efficiently into active DeFi venues on any chain.
+Bitfrost introduces several key innovations in interoperability to ensure secure, capital-efficient synthetic issuance across chains:
 
+- TSS vaults & authorization - Create 1:1, composable representations of native assets and move them reliably across chains. A supermajority TSS signatures secure external-chain events and enable direct redemption back to the native asset.
+
+- Cross-chain state machine - Orchestrates state and events across external chains to maintain global consistency of all assets, preventing double spending or invalid duplication. The design minimizes fragmentation through a single pool and risk surface, with atomic burns/mints and inventory that rebalances to demand.
+
+- Decentralized validator network - Supermajority TSS signatures secure external-chain events and enable direct redemption back to the native asset. The user always controls custody of their underlying asset through the TSS vaults.
+
+- Direct market integration - Connects Bitfrost-issued assets directly to active DeFi markets, enabling an abstracted cross-chain user experience that supports yield-bearing strategies and direct deployment into liquidity.
+
+- Institutional-grade capital efficiency - Allows assets to move across chains without KYC friction, MEV exposure, or unnecessary gas overhead, while preserving security and composability.
+
+- Rapid chain and asset expansion - A custom Wormhole NTT integration allows Bitfrost to support many more assets and chains without compromising on security.
 
 ### Run a Node or a Validator
 Please contact us in any way possible to include you in the network.
