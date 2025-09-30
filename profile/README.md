@@ -1,4 +1,4 @@
-## Welcome to BitFrost ☃️
+## Welcome to BITFROST ☃️
 ![banner](./images/bitfrost.svg)
 ### Product
 Bitfrost is a permissionless market creation platform for venues like Hyperliquid.  Users deposit assets from any blockchain to launch new markets and earn revenue as collective owners.
