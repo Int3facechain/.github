@@ -4,7 +4,7 @@
 Bitfrost is a permissionless market creation platform for venues like Hyperliquid.  Users deposit assets from any blockchain to launch new markets and earn revenue as collective owners.
 
 ### The infrastructure
-Bitfrost is a synthetic asset issuance platform built on a cross-chain state machine that enables native assets, real-world assets (RWAs), LSTs and LRTs to flow securely and efficiently into active DeFi venues on any chain.
+Bitfrost is an asset issuance platform built on a cross-chain state machine that enables native assets to flow securely and efficiently into Hyperliquid.
 Bitfrost introduces several key innovations in interoperability to ensure secure, capital-efficient synthetic issuance across chains:
 
 - TSS vaults & authorization - Create 1:1, composable representations of native assets and move them reliably across chains. A supermajority TSS signatures secure external-chain events and enable direct redemption back to the native asset.
@@ -24,7 +24,7 @@ Please contact us in any way possible to include you in the network.
 
 ### Contribute to the Project
 BitFrost's blockchain node implements the core protocol, written in Go using
-[Cosmos SDK](https://github.com/cosmos/cosmos-sdk) and [Comet BFT](https://cometbft.com/). Protocol contracts implement the core protocol and are
+[Comet BFT](https://cometbft.com/). Protocol contracts implement the core protocol and are
 deployed on BitFrost and on connected chains, written in Solidity. See the list
 of pinned repos below for the projects to contribute to.
 
