@@ -1,26 +1,25 @@
 ## Welcome to BITFROST ☃️
 ![banner](./images/bitfrost.svg)
-### Product
-Bitfrost is a permissionless market creation platform for venues like Hyperliquid.  Users deposit assets from any blockchain to launch new markets and earn revenue as collective owners.
 
-### The infrastructure
-Bitfrost is an asset issuance platform built on a cross-chain state machine that enables native assets to flow securely and efficiently into Hyperliquid.
-Bitfrost introduces several key innovations in interoperability to ensure secure, capital-efficient synthetic issuance across chains:
+BitFrost is a clearing architecture for fragmented digital asset markets. It is built for a world in which collateral, leverage, execution, and liquidity are distributed across centralized exchanges, decentralized lending venues, and autonomous financial agents.
 
-- TSS vaults & authorization - Create 1:1, composable representations of native assets and move them reliably across chains. A supermajority TSS signatures secure external-chain events and enable direct redemption back to the native asset.
+Traditional systems margin locally, liquidate locally, and source capital locally. That model is operationally simple, but economically inefficient: it ignores portfolio offsets, duplicates collateral requirements, and constrains balance sheet scaling.
 
-- Cross-chain state machine - Orchestrates state and events across external chains to maintain global consistency of all assets, preventing double spending or invalid duplication. The design minimizes fragmentation through a single pool and risk surface, with atomic burns/mints and inventory that rebalances to demand.
+### The Infrastructure
 
-- Decentralized validator network - Supermajority TSS signatures secure external-chain events and enable direct redemption back to the native asset. The user always controls custody of their underlying asset through the TSS vaults.
+BitFrost provides a fully integrated infrastructure that unifies four previously disconnected concerns:
 
-- Direct market integration - Connects Bitfrost-issued assets directly to active DeFi markets, enabling an abstracted cross-chain user experience that supports yield-bearing strategies and direct deployment into liquidity.
+- **BitFrost Prime** — Venue-facing master accounts with tiered auto-deleveraging (ADL) isolation. Prime connects to external exchanges and manages position lifecycle, margin allocation, and ADL defense across venues.
 
-- Institutional-grade capital efficiency - Allows assets to move across chains without KYC friction, MEV exposure, or unnecessary gas overhead, while preserving security and composability.
+- **Unified Clearing Engine** — Computes portfolio-level margin, nets risk across venues, and actively manages ADL exposure through position resets that simultaneously serve as hedge rebalancing operations.
 
-- Rapid chain and asset expansion - A custom Wormhole NTT integration allows Bitfrost to support many more assets and chains without compromising on security.
+- **Curated Vaults** — Morpho-style curated vault infrastructure supplies programmable external capital. Capital providers compete to finance strategies, while BitFrost allocates and risk-manages their deployment. 
 
-### Run a Node or a Validator
-Please contact us in any way possible to include you in the network.
+### The Product
+
+The first use case is the **carry trade**: a collateral or spot leg combined with a hedged short perpetual or futures leg to capture funding or basis yield.
+
+BitFrost transforms this from a fragmented treasury workflow into a programmable clearing product.
 
 ### Contribute to the Project
 BitFrost's blockchain node implements the core protocol, written in Go using
